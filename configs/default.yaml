@@ -1,0 +1,15 @@
+data:
+  movies_path: data/raw/movies.csv
+  ratings_path: data/raw/ratings.csv
+  tags_path: data/raw/tags.csv
+
+model:
+  max_features: 5000
+  stop_words: english
+
+recommendation:
+  top_n: 5
+
+evaluation:
+  test_size: 0.2
+  random_state: 42
